@@ -7,4 +7,14 @@ tool specific stuff. Keybinds and other custom configs are in here too.
 
 --------------------------------------------------------------------------------
 
-### 1.
+## 1. Vim/Neovim
+
+See the [vim specific directory](/vim).
+
+## 2. Tmux
+
+See the [tmux specific directory](/tmux).
+
+## 3. Zsh
+
+See the [zsh specific directory](/zsh).
