@@ -24,7 +24,7 @@ simply means "press the combination _control + x_, followed by _control + y_".
 You don't need to let go of the _control_ key for this combination.
 
 Also, the keybinds below are those offered in the `emacs` emulation mode. `vi`
-emulation mode offers diffrent keybinds. To enable `emacs` emulation, `bindkey
+emulation mode offers different keybinds. To enable `emacs` emulation, `bindkey
 -e` should be used.
 
 Some of the default shell keybinds (many here present in bash and other shells
@@ -121,8 +121,8 @@ keybind for the specific widget):
 Additionally, there's a set of keybinds that use the `Esc` key as a control
 modifier instead of `Ctrl`. Due to how the terminal sends some key codes and the
 shell interprets them, the `Esc` key can be shortened to `Alt` in some of the
-keybinds below, i.e. instead of pressing `Esc; x` as **two separate** keys, `Alt
-+ x` can be pressed instead as a single combination. These keybinds are:
+keybinds below, i.e. instead of pressing `Esc; x` as **two separate** keys, `Alt + x`
+can be pressed instead as a single combination. These keybinds are:
 - `Alt + '`: Quote the current command line by escaping special characters.
 - `Alt + .`: Insert the last argument of the last command. Can be repeated to
   insert the last argument of commands up in history. By prepending a numeric
