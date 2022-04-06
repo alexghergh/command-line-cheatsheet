@@ -122,7 +122,9 @@ Additionally, there's a set of keybinds that use the `Esc` key as a control
 modifier instead of `Ctrl`. Due to how the terminal sends some key codes and the
 shell interprets them, the `Esc` key can be shortened to `Alt` in some of the
 keybinds below, i.e. instead of pressing `Esc; x` as **two separate** keys, `Alt + x`
-can be pressed instead as a single combination. These keybinds are:
+can be pressed instead as a single combination. This trick might not work for
+all terminals (I can confirm that it does work for Konsole, though). These
+keybinds are:
 - `Alt + '`: Quote the current command line by escaping special characters.
 - `Alt + .`: Insert the last argument of the last command. Can be repeated to
   insert the last argument of commands up in history. By prepending a numeric
