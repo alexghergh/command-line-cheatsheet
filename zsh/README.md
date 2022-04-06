@@ -149,3 +149,31 @@ keybinds below, i.e. instead of pressing `Esc; x` as **two separate** keys, `Alt
 - `Alt + q`: Push line onto editing stack. Same as `Ctrl + q`, see above.
 - `Alt + t`: Transpose words.
 - `Alt + u`: Up case the word under the cursor.
+
+## 2. Custom widgets and keybinds
+
+All these custom defined widgets can be found in the dotfiles (under
+`zsh/.config/zsh/.zsh_other/.zsh_keybinds`).
+
+For custom defined widgets and keybinds, below is a list:
+- `Ctrl + x; Ctrl + p`: Search up by prefix, i.e. search backward in history
+  commands that start with the current characters on the command line. For
+  example, if the current line contains `echo hey`, pressing `Ctrl + x; Ctrl +
+  p` will search backward in history only for commands that start with `echo
+  hey`. Without any character, acts the same as `Ctrl + p`.
+- `Ctrl + x; Ctrl + n`: Search down by prefix. Opposite of the above. Without
+  characters, acts as `Ctrl + n`.
+- `Alt + e`: Copy the previous word. Useful for long paths, where only the last
+  segment would be changed.
+- `Alt + z`: Transpose words. Same as `Alt + t`, except it keeps the cursor in
+  place.
+- `Alt + q` (overriden): Push line _or edit_ (as opposed to only push line). If
+  on multi-line commands with the `PS2` prompt, bring the whole multi-line
+  command on the prompt. Otherwise, just push line.
+- `Ctrl + x; Ctrl + g`: Down line or local history. Depending on options, the
+  current command line might share history with other open shells (open in, for
+  example, multiple tmux panes or terminal windows). This command only goes down
+  through the local history (i.e., only of the current command line, not the
+  global history). If on a multi-line command, go down instead (similar to down
+  arrow).
+- `Ctrl + x; Ctrl + h`: Up line or local history. Opposite of the above.
