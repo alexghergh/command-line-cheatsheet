@@ -179,3 +179,6 @@ For custom defined widgets and keybinds, below is a list:
   global history). If on a multi-line command, go down instead (similar to down
   arrow).
 - `Ctrl + x; Ctrl + h`: Up line or local history. Opposite of the above.
+- `Ctrl + x; Ctrl + r`: Cycle through long and short path display (show only the
+  first character of the path segment). See
+  `.zsh_misc_functions/custom_path.zsh` in the dotfiles for more info.
